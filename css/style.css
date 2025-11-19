@@ -169,6 +169,7 @@
 .navbar-brand h1 {
     color: #ff0000;
     padding: 20px 0 0 10px;
+    font-size: 34px;
 }
 
 .navbar-light .navbar-brand img {
