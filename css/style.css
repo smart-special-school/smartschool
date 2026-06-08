@@ -90,6 +90,12 @@
     color: var(--bs-secondary) !important;
 }
 
+.heart-anim { display:inline-block; animation: hb 1.4s ease infinite; }
+@keyframes hb {
+  0%,100%{transform:scale(1)} 14%{transform:scale(1.35)}
+  28%{transform:scale(1)} 42%{transform:scale(1.2)} 56%{transform:scale(1)}
+}
+
 /*** Sub Title Start ***/
 .sub-title {
     position: relative;
